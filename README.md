@@ -1,4 +1,4 @@
-# Frida Setup
+# Frida Setup For Windows
 
 Installer script for Frida and Burp's certificate to help setup bypass SSL Pinning in Android applications. 
 Works with Genymotion Emulator.
@@ -29,3 +29,13 @@ Read the blog post for a detailed walkthrough -> <a href="https://blog.dixitadit
 * Tested only on Arch Linux. Might have to change the `sed` command accordingly if you're on MacOS.
 * Adjust `pip` to `pip3` if needed in the script.
 * Highly recommend using `frida2.js` rather than `frida.js`.
+
+## Pre-requisites
+
+* python3 https://www.python.org/downloads/
+* bash http://win-bash.sourceforge.net/
+* adb https://developer.android.com/studio/releases/platform-tools
+* curl https://curl.se/windows/
+* openssl https://sourceforge.net/projects/openssl/files/latest/download
+
+download frida-server for android-x86.xz https://github.com/frida/frida/releases and unzip
